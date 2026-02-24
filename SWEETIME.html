@@ -1101,7 +1101,7 @@ function pDisp(){
 
   applyPhaseTheme(pPhase);
 
-  const lbs=['Período 1 — Estudio','Período 2 — Descanso','Período 3 — Estudio','Período 4 — Descanso'];
+  const lbs=['Estudio','Descanso','Estudio','Descanso'];
   document.getElementById('pomo-status-running').textContent=lbs[pPhase]||'';
   document.getElementById('pomo-phase-label').textContent=isBreak?'Descansando':'Estudiando';
 
